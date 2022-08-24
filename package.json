@@ -1,0 +1,18 @@
+{
+  "name": "shoping-cart",
+  "version": "1.0.0",
+  "description": "\"This is demo-project mainly contains payment gateway logics with stripe\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "vishal srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "stripe": "^10.4.0"
+  }
+}
